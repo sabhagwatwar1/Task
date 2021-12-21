@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corinthia&family=Montserrat:wght@300&family=Poppins:wght@200&family=Redacted+Script:wght@300&family=Zen+Kurenaido&display=swap"
+        rel="stylesheet">
+
+    <title>Task</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .container {
+            border: 2px solid black;
+            width: 20%;
+            height: 250px;
+            margin: 80px 390px;
+            border-radius: 10px;
+
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+
+        .name {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+
+        #price {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+
+        #add {
+            margin-top: 30px;
+            color: rgb(212, 212, 212);
+            background-color: blue;
+            outline: none;
+            margin-left: 80px;
+            width: 120px;
+            align-content: center;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+
+        #remove {
+            margin-top: 20px;
+            color: rgb(212, 212, 212);
+            background-color: blue;
+            outline: none;
+            width: 120px;
+            margin-left: 80px;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+
+        .container2 {
+            border: 2px solid black;
+            width: 20%;
+            height: 250px;
+            margin: 80px 390px;
+            border-radius: 10px;
+
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+
+        #hname {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+
+        #hprice {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+
+        #head {
+            margin-top: 30px;
+            color: rgb(212, 212, 212);
+            background-color: blue;
+            outline: none;
+            margin-left: 80px;
+            width: 120px;
+            align-content: center;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+
+        #hremove {
+            margin-top: 20px;
+            color: rgb(212, 212, 212);
+            background-color: blue;
+            outline: none;
+            width: 120px;
+            margin-left: 80px;
+            font-family: 'Corinthia', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Redacted Script', cursive;
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="head">Cosmetics</h1>
+        <hr>
+        <p class="name">Name:</p>
+        <p id="price">Price:</p>
+
+        <button id="add">Add to cart</button><br>
+
+        <button id="remove">Ramove from Cart</button>
+    </div>
+    <div class="container2">
+        <h1 class="heading">Household</h1>
+        <hr>
+        <p id="hname">Name:</p>
+        <p id="hprice">Price:</p>
+        <button id="add">Add to cart</button> <br>
+        
+        <button id="remove">Ramove from Cart</button>
+
+
+
+    </div>
+
+    <script>
+        const data = [
+            {
+                "name": "Cosmetics",
+                "productList": [
+                    {
+                        "name": "Hair Oil",
+                        "price": 122
+                    },
+                    {
+                        "name": "Face wash",
+                        "price": 123
+                    }
+                ]
+            },
+            {
+                "name": "Household",
+                "productList": [
+                    {
+                        "name": "Hair Oil",
+                        "price": 122
+                    },
+                    {
+                        "name": "Face wash",
+                        "price": 123
+                    }
+                ]
+            }
+        ]
+
+    </script>
+
+</body>
+
+</html>
